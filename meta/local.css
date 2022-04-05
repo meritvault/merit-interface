@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+
+body {
+    background: repeating-linear-gradient(
+        0deg,
+        #0E0D0E 25%,
+        #0E0D0E 50%,
+        #171819 50%,
+        #171819 75%
+      );
+    background-size: 10px 10px;
+    height:auto;
+    font-family: 'Press Start 2P', cursive;
+
+
+    -webkit-animation: drop 15s linear infinite;
+    animation: drop 15s linear infinite;
+    
+    
+  }
+  
+
+  
+  
+
+  
+
+  .glow {
+    
+    color: #fff;
+    text-transform: uppercase;   
+    text-shadow: 0 0 0.4rem rgba(60, 255, 0, 0.651);
+
+
+
+  }
+
+ul li a{
+    
+    color: #2EB62C!important; 
+    text-shadow:
+    0 0 0.4rem var(--neon-text-color);
+
+}
+
+
+#ts{
+    
+  color: #2EB62C!important; 
+  text-shadow:
+  0 0 0.4rem var(--neon-text-color);
+  
+  font-family: 'Press Start 2P', cursive;
+
+}
+
+#shine{
+box-shadow:2px solid green;
+  
+
+}  
+  
+.boxes{
+color: white!important;
+  height: auto;
+  border: 1px solid #1ca34c!important;
+  border-radius: 10px;
+  
+}
+
+#element{
+  position:absolute;
+  top:-100%;
+  border: solid 1px;
+  width:100%;
+  padding:2em;
+  background-color:purple;
+  animation: drop 5s ease forwards;
+  animation-iteration-count:infinite;
+}
+
+#dt{
+
+  color: #2EB62C;
+  font-size: 16px;
+}
+
+#dtc{
+
+  color: #2EB62C;
+}
+
+
+
+#box1{
+  height: 60px;
+  border: 1px solid  #1ca34c;
+  width: 120px;
+  float: left;
+  margin-left: -17px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  
+}
+
+
+
+#box2{
+  height: 60px;
+  border: 1px solid  #1ca34c;
+  width: 120px;
+  float: right;
+  margin-right: -17px;
+  margin-top: 50px;
+  text-align: center;
+  
+  margin-bottom: 50px;
+}
+
+#box3{
+  height: 75px;
+  border: 1px solid  #1ca34c;
+  clear: both;
+  margin-left: -17px;
+  margin-right: -17px;
+  margin-bottom: -17px;
+  border-radius: 0 0 10px 10px ;
+
+}
+
+#box31{
+  float: left;
+  width: 68%;
+  padding: 10px;
+}
+
+#box32{
+  
+  float: left;
+  text-align: right;
+  width:32%;
+}
+
+
+
+#bx2{
+  height: 60px;
+  border: 1px solid  #1ca34c;
+  width: 140px;
+  float: right;
+  margin-top: 30px;
+  text-align: center;
+  
+  margin-bottom: 20px;
+  background-color: rgba(0, 128, 0, 0.562)
+
+}
+
+
+#bx1{
+  height: 60px;
+  border: 1px solid  #1ca34c;
+  width: 140px;
+  float: left;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: rgba(0, 128, 0, 0.562)
+}
+
+
+#dh{
+  background-color: rgba(0, 128, 0, 0.562)
+}
+
+
+.footer-dark {
+  padding:15px 0;
+  color:#f0f9ff;
+  background-color:#0a0a0a;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+
+@media screen and (max-width: 376px) {
+ .px-5{
+  padding-left: 1rem * .04 !important;
+  
+  padding-right: 1rem * .04 !important;
+ }
+}
